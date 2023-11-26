@@ -5,7 +5,7 @@ def financialliteracy(inputtext):
   openai.api_type = "azure"
   openai.api_base = "https://euwdsrg00noai1.openai.azure.com/"
   openai.api_version = "2023-09-15-preview"
-  openai.api_key = "1c2ef7c38f89403194fbc506c5e6907e"
+  openai.api_key = "Yourkey"
 
   response = openai.Completion.create(
     engine="contractautomation",
